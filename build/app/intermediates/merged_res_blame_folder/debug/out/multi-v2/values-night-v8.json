@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/wakecap/AndroidStudioProjects/mokataa/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "/Users/wakecap/AndroidStudioProjects/personal/mokataa/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/wakecap/AndroidStudioProjects/mokataa/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/Users/wakecap/AndroidStudioProjects/personal/mokataa/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

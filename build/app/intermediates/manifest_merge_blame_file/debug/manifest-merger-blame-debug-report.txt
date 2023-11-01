@@ -13,123 +13,165 @@
 13         to allow setting breakpoints, to provide hot reload, etc.
 14    -->
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->/Users/wakecap/AndroidStudioProjects/mokataa/android/app/src/debug/AndroidManifest.xml:7:5-66
-15-->/Users/wakecap/AndroidStudioProjects/mokataa/android/app/src/debug/AndroidManifest.xml:7:22-64
-16    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
-17    <!-- <uses-sdk android:minSdkVersion="14"/> -->
-18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-18-->[com.google.firebase:firebase-database:20.2.2] /Users/wakecap/.gradle/caches/transforms-3/610716e1b39c1c27a720cea0700f6111/transformed/jetified-firebase-database-20.2.2/AndroidManifest.xml:24:5-79
-18-->[com.google.firebase:firebase-database:20.2.2] /Users/wakecap/.gradle/caches/transforms-3/610716e1b39c1c27a720cea0700f6111/transformed/jetified-firebase-database-20.2.2/AndroidManifest.xml:24:22-76
-19
-20    <application
-21        android:name="android.app.Application"
-22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-22-->[androidx.core:core:1.6.0] /Users/wakecap/.gradle/caches/transforms-3/b9bc6fe7e68b936078e9cb8cf0d38b93/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
-23        android:debuggable="true"
-24        android:icon="@mipmap/ic_launcher"
-25        android:label="mokataa" >
-26        <activity
-27            android:name="com.spotx.mokataa.MainActivity"
-28            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-29            android:exported="true"
-30            android:hardwareAccelerated="true"
-31            android:launchMode="singleTop"
-32            android:theme="@style/LaunchTheme"
-33            android:windowSoftInputMode="adjustResize" >
-34
-35            <!--
-36                 Specifies an Android theme to apply to this Activity as soon as
-37                 the Android process has started. This theme is visible to the user
-38                 while the Flutter UI initializes. After that, this theme continues
-39                 to determine the Window background behind the Flutter UI.
-40            -->
-41            <meta-data
-42                android:name="io.flutter.embedding.android.NormalTheme"
-43                android:resource="@style/NormalTheme" />
-44
-45            <intent-filter>
-46                <action android:name="android.intent.action.MAIN" />
-47
-48                <category android:name="android.intent.category.LAUNCHER" />
-49            </intent-filter>
-50        </activity>
-51        <!--
-52             Don't delete the meta-data below.
-53             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
-54        -->
-55        <meta-data
-56            android:name="flutterEmbedding"
-57            android:value="2" />
-58
-59        <service
-59-->[:firebase_database] /Users/wakecap/AndroidStudioProjects/mokataa/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
-60            android:name="com.google.firebase.components.ComponentDiscoveryService"
-60-->[:firebase_database] /Users/wakecap/AndroidStudioProjects/mokataa/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-89
-61            android:directBootAware="true"
-61-->[com.google.firebase:firebase-common:20.3.3] /Users/wakecap/.gradle/caches/transforms-3/a9e4d7298238969e0bc5beb109655d12/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:34:13-43
-62            android:exported="false" >
-62-->[com.google.firebase:firebase-database:20.2.2] /Users/wakecap/.gradle/caches/transforms-3/610716e1b39c1c27a720cea0700f6111/transformed/jetified-firebase-database-20.2.2/AndroidManifest.xml:30:13-37
-63            <meta-data
-63-->[:firebase_database] /Users/wakecap/AndroidStudioProjects/mokataa/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
-64                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
-64-->[:firebase_database] /Users/wakecap/AndroidStudioProjects/mokataa/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-127
-65                android:value="com.google.firebase.components.ComponentRegistrar" />
-65-->[:firebase_database] /Users/wakecap/AndroidStudioProjects/mokataa/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
-66            <meta-data
-66-->[:firebase_core] /Users/wakecap/AndroidStudioProjects/mokataa/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
-67                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-67-->[:firebase_core] /Users/wakecap/AndroidStudioProjects/mokataa/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
-68                android:value="com.google.firebase.components.ComponentRegistrar" />
-68-->[:firebase_core] /Users/wakecap/AndroidStudioProjects/mokataa/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
-69            <meta-data
-69-->[com.google.firebase:firebase-database:20.2.2] /Users/wakecap/.gradle/caches/transforms-3/610716e1b39c1c27a720cea0700f6111/transformed/jetified-firebase-database-20.2.2/AndroidManifest.xml:31:13-33:85
-70                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-70-->[com.google.firebase:firebase-database:20.2.2] /Users/wakecap/.gradle/caches/transforms-3/610716e1b39c1c27a720cea0700f6111/transformed/jetified-firebase-database-20.2.2/AndroidManifest.xml:32:17-109
-71                android:value="com.google.firebase.components.ComponentRegistrar" />
-71-->[com.google.firebase:firebase-database:20.2.2] /Users/wakecap/.gradle/caches/transforms-3/610716e1b39c1c27a720cea0700f6111/transformed/jetified-firebase-database-20.2.2/AndroidManifest.xml:33:17-82
-72        </service>
-73
-74        <uses-library
-74-->[androidx.window:window:1.0.0-beta04] /Users/wakecap/.gradle/caches/transforms-3/955b60c573648c92758f9e57794bc3b1/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
-75            android:name="androidx.window.extensions"
-75-->[androidx.window:window:1.0.0-beta04] /Users/wakecap/.gradle/caches/transforms-3/955b60c573648c92758f9e57794bc3b1/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
-76            android:required="false" />
-76-->[androidx.window:window:1.0.0-beta04] /Users/wakecap/.gradle/caches/transforms-3/955b60c573648c92758f9e57794bc3b1/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
-77        <uses-library
-77-->[androidx.window:window:1.0.0-beta04] /Users/wakecap/.gradle/caches/transforms-3/955b60c573648c92758f9e57794bc3b1/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
-78            android:name="androidx.window.sidecar"
-78-->[androidx.window:window:1.0.0-beta04] /Users/wakecap/.gradle/caches/transforms-3/955b60c573648c92758f9e57794bc3b1/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
-79            android:required="false" />
-79-->[androidx.window:window:1.0.0-beta04] /Users/wakecap/.gradle/caches/transforms-3/955b60c573648c92758f9e57794bc3b1/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
-80
-81        <provider
-81-->[com.google.firebase:firebase-common:20.3.3] /Users/wakecap/.gradle/caches/transforms-3/a9e4d7298238969e0bc5beb109655d12/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:25:9-30:39
-82            android:name="com.google.firebase.provider.FirebaseInitProvider"
-82-->[com.google.firebase:firebase-common:20.3.3] /Users/wakecap/.gradle/caches/transforms-3/a9e4d7298238969e0bc5beb109655d12/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:26:13-77
-83            android:authorities="com.spotx.mokataa.firebaseinitprovider"
-83-->[com.google.firebase:firebase-common:20.3.3] /Users/wakecap/.gradle/caches/transforms-3/a9e4d7298238969e0bc5beb109655d12/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:27:13-72
-84            android:directBootAware="true"
-84-->[com.google.firebase:firebase-common:20.3.3] /Users/wakecap/.gradle/caches/transforms-3/a9e4d7298238969e0bc5beb109655d12/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:28:13-43
-85            android:exported="false"
-85-->[com.google.firebase:firebase-common:20.3.3] /Users/wakecap/.gradle/caches/transforms-3/a9e4d7298238969e0bc5beb109655d12/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:29:13-37
-86            android:initOrder="100" />
-86-->[com.google.firebase:firebase-common:20.3.3] /Users/wakecap/.gradle/caches/transforms-3/a9e4d7298238969e0bc5beb109655d12/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:30:13-36
-87
-88        <activity
-88-->[com.google.android.gms:play-services-base:18.1.0] /Users/wakecap/.gradle/caches/transforms-3/e002b9e8ecfab01cd0dd857cf529885c/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
-89            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-89-->[com.google.android.gms:play-services-base:18.1.0] /Users/wakecap/.gradle/caches/transforms-3/e002b9e8ecfab01cd0dd857cf529885c/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
-90            android:exported="false"
-90-->[com.google.android.gms:play-services-base:18.1.0] /Users/wakecap/.gradle/caches/transforms-3/e002b9e8ecfab01cd0dd857cf529885c/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
-91            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-91-->[com.google.android.gms:play-services-base:18.1.0] /Users/wakecap/.gradle/caches/transforms-3/e002b9e8ecfab01cd0dd857cf529885c/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
-92
-93        <meta-data
-93-->[com.google.android.gms:play-services-basement:18.1.0] /Users/wakecap/.gradle/caches/transforms-3/c9cacd907e5688cdd5c033c7071b8609/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
-94            android:name="com.google.android.gms.version"
-94-->[com.google.android.gms:play-services-basement:18.1.0] /Users/wakecap/.gradle/caches/transforms-3/c9cacd907e5688cdd5c033c7071b8609/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
-95            android:value="@integer/google_play_services_version" />
-95-->[com.google.android.gms:play-services-basement:18.1.0] /Users/wakecap/.gradle/caches/transforms-3/c9cacd907e5688cdd5c033c7071b8609/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
-96    </application>
-97
-98</manifest>
+15-->/Users/wakecap/AndroidStudioProjects/personal/mokataa/android/app/src/debug/AndroidManifest.xml:7:5-66
+15-->/Users/wakecap/AndroidStudioProjects/personal/mokataa/android/app/src/debug/AndroidManifest.xml:7:22-64
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[com.google.firebase:firebase-config:21.4.1] /Users/wakecap/.gradle/caches/transforms-3/3ad3aed55887c292ea10ac54d8bef312/transformed/jetified-firebase-config-21.4.1/AndroidManifest.xml:24:5-79
+16-->[com.google.firebase:firebase-config:21.4.1] /Users/wakecap/.gradle/caches/transforms-3/3ad3aed55887c292ea10ac54d8bef312/transformed/jetified-firebase-config-21.4.1/AndroidManifest.xml:24:22-76
+17
+18    <permission
+18-->[androidx.core:core:1.10.1] /Users/wakecap/.gradle/caches/transforms-3/cf134b166edad80cde6fead3d59a916e/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+19        android:name="com.spotx.mokataa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+19-->[androidx.core:core:1.10.1] /Users/wakecap/.gradle/caches/transforms-3/cf134b166edad80cde6fead3d59a916e/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+20        android:protectionLevel="signature" />
+20-->[androidx.core:core:1.10.1] /Users/wakecap/.gradle/caches/transforms-3/cf134b166edad80cde6fead3d59a916e/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+21
+22    <uses-permission android:name="com.spotx.mokataa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+22-->[androidx.core:core:1.10.1] /Users/wakecap/.gradle/caches/transforms-3/cf134b166edad80cde6fead3d59a916e/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+22-->[androidx.core:core:1.10.1] /Users/wakecap/.gradle/caches/transforms-3/cf134b166edad80cde6fead3d59a916e/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+23
+24    <application
+25        android:name="android.app.Application"
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.10.1] /Users/wakecap/.gradle/caches/transforms-3/cf134b166edad80cde6fead3d59a916e/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+27        android:debuggable="true"
+28        android:icon="@mipmap/ic_launcher"
+29        android:label="mokataa" >
+30        <activity
+31            android:name="com.spotx.mokataa.MainActivity"
+32            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+33            android:exported="true"
+34            android:hardwareAccelerated="true"
+35            android:launchMode="singleTop"
+36            android:theme="@style/LaunchTheme"
+37            android:windowSoftInputMode="adjustResize" >
+38
+39            <!--
+40                 Specifies an Android theme to apply to this Activity as soon as
+41                 the Android process has started. This theme is visible to the user
+42                 while the Flutter UI initializes. After that, this theme continues
+43                 to determine the Window background behind the Flutter UI.
+44            -->
+45            <meta-data
+46                android:name="io.flutter.embedding.android.NormalTheme"
+47                android:resource="@style/NormalTheme" />
+48
+49            <intent-filter>
+50                <action android:name="android.intent.action.MAIN" />
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+53            </intent-filter>
+54        </activity>
+55        <!--
+56             Don't delete the meta-data below.
+57             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+58        -->
+59        <meta-data
+60            android:name="flutterEmbedding"
+61            android:value="2" />
+62
+63        <service
+63-->[:firebase_database] /Users/wakecap/AndroidStudioProjects/personal/mokataa/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+64            android:name="com.google.firebase.components.ComponentDiscoveryService"
+64-->[:firebase_database] /Users/wakecap/AndroidStudioProjects/personal/mokataa/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-89
+65            android:directBootAware="true"
+65-->[com.google.firebase:firebase-common:20.3.3] /Users/wakecap/.gradle/caches/transforms-3/c25649430469416cafa5a5774f29845e/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:34:13-43
+66            android:exported="false" >
+66-->[com.google.firebase:firebase-config:21.4.1] /Users/wakecap/.gradle/caches/transforms-3/3ad3aed55887c292ea10ac54d8bef312/transformed/jetified-firebase-config-21.4.1/AndroidManifest.xml:30:13-37
+67            <meta-data
+67-->[:firebase_database] /Users/wakecap/AndroidStudioProjects/personal/mokataa/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+68                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+68-->[:firebase_database] /Users/wakecap/AndroidStudioProjects/personal/mokataa/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-127
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[:firebase_database] /Users/wakecap/AndroidStudioProjects/personal/mokataa/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+70            <meta-data
+70-->[:firebase_remote_config] /Users/wakecap/AndroidStudioProjects/personal/mokataa/build/firebase_remote_config/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+71                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firebaseremoteconfig.FlutterFirebaseAppRegistrar"
+71-->[:firebase_remote_config] /Users/wakecap/AndroidStudioProjects/personal/mokataa/build/firebase_remote_config/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-139
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[:firebase_remote_config] /Users/wakecap/AndroidStudioProjects/personal/mokataa/build/firebase_remote_config/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+73            <meta-data
+73-->[:firebase_core] /Users/wakecap/AndroidStudioProjects/personal/mokataa/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+74                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+74-->[:firebase_core] /Users/wakecap/AndroidStudioProjects/personal/mokataa/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[:firebase_core] /Users/wakecap/AndroidStudioProjects/personal/mokataa/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+76            <meta-data
+76-->[com.google.firebase:firebase-config:21.4.1] /Users/wakecap/.gradle/caches/transforms-3/3ad3aed55887c292ea10ac54d8bef312/transformed/jetified-firebase-config-21.4.1/AndroidManifest.xml:31:13-33:85
+77                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+77-->[com.google.firebase:firebase-config:21.4.1] /Users/wakecap/.gradle/caches/transforms-3/3ad3aed55887c292ea10ac54d8bef312/transformed/jetified-firebase-config-21.4.1/AndroidManifest.xml:32:17-117
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[com.google.firebase:firebase-config:21.4.1] /Users/wakecap/.gradle/caches/transforms-3/3ad3aed55887c292ea10ac54d8bef312/transformed/jetified-firebase-config-21.4.1/AndroidManifest.xml:33:17-82
+79            <meta-data
+79-->[com.google.firebase:firebase-database:20.2.2] /Users/wakecap/.gradle/caches/transforms-3/cb708199228fa354a5a575d6d050e39c/transformed/jetified-firebase-database-20.2.2/AndroidManifest.xml:31:13-33:85
+80                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+80-->[com.google.firebase:firebase-database:20.2.2] /Users/wakecap/.gradle/caches/transforms-3/cb708199228fa354a5a575d6d050e39c/transformed/jetified-firebase-database-20.2.2/AndroidManifest.xml:32:17-109
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[com.google.firebase:firebase-database:20.2.2] /Users/wakecap/.gradle/caches/transforms-3/cb708199228fa354a5a575d6d050e39c/transformed/jetified-firebase-database-20.2.2/AndroidManifest.xml:33:17-82
+82            <meta-data
+82-->[com.google.firebase:firebase-abt:21.1.1] /Users/wakecap/.gradle/caches/transforms-3/81f584df50e845ce19cfd391732411ac/transformed/jetified-firebase-abt-21.1.1/AndroidManifest.xml:12:13-14:85
+83                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+83-->[com.google.firebase:firebase-abt:21.1.1] /Users/wakecap/.gradle/caches/transforms-3/81f584df50e845ce19cfd391732411ac/transformed/jetified-firebase-abt-21.1.1/AndroidManifest.xml:13:17-109
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[com.google.firebase:firebase-abt:21.1.1] /Users/wakecap/.gradle/caches/transforms-3/81f584df50e845ce19cfd391732411ac/transformed/jetified-firebase-abt-21.1.1/AndroidManifest.xml:14:17-82
+85            <meta-data
+85-->[com.google.firebase:firebase-installations:17.1.4] /Users/wakecap/.gradle/caches/transforms-3/1be4dfdbbe7cdb9cdc887a2a1b3e2b66/transformed/jetified-firebase-installations-17.1.4/AndroidManifest.xml:15:13-17:85
+86                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+86-->[com.google.firebase:firebase-installations:17.1.4] /Users/wakecap/.gradle/caches/transforms-3/1be4dfdbbe7cdb9cdc887a2a1b3e2b66/transformed/jetified-firebase-installations-17.1.4/AndroidManifest.xml:16:17-127
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[com.google.firebase:firebase-installations:17.1.4] /Users/wakecap/.gradle/caches/transforms-3/1be4dfdbbe7cdb9cdc887a2a1b3e2b66/transformed/jetified-firebase-installations-17.1.4/AndroidManifest.xml:17:17-82
+88        </service>
+89
+90        <activity
+90-->[:url_launcher_android] /Users/wakecap/AndroidStudioProjects/personal/mokataa/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-13:74
+91            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+91-->[:url_launcher_android] /Users/wakecap/AndroidStudioProjects/personal/mokataa/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
+92            android:exported="false"
+92-->[:url_launcher_android] /Users/wakecap/AndroidStudioProjects/personal/mokataa/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+93            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+93-->[:url_launcher_android] /Users/wakecap/AndroidStudioProjects/personal/mokataa/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-71
+94
+95        <uses-library
+95-->[androidx.window:window:1.0.0-beta04] /Users/wakecap/.gradle/caches/transforms-3/f0408c22bac13e2dff932a20580df52f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+96            android:name="androidx.window.extensions"
+96-->[androidx.window:window:1.0.0-beta04] /Users/wakecap/.gradle/caches/transforms-3/f0408c22bac13e2dff932a20580df52f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+97            android:required="false" />
+97-->[androidx.window:window:1.0.0-beta04] /Users/wakecap/.gradle/caches/transforms-3/f0408c22bac13e2dff932a20580df52f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+98        <uses-library
+98-->[androidx.window:window:1.0.0-beta04] /Users/wakecap/.gradle/caches/transforms-3/f0408c22bac13e2dff932a20580df52f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+99            android:name="androidx.window.sidecar"
+99-->[androidx.window:window:1.0.0-beta04] /Users/wakecap/.gradle/caches/transforms-3/f0408c22bac13e2dff932a20580df52f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+100            android:required="false" />
+100-->[androidx.window:window:1.0.0-beta04] /Users/wakecap/.gradle/caches/transforms-3/f0408c22bac13e2dff932a20580df52f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+101
+102        <provider
+102-->[com.google.firebase:firebase-common:20.3.3] /Users/wakecap/.gradle/caches/transforms-3/c25649430469416cafa5a5774f29845e/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:25:9-30:39
+103            android:name="com.google.firebase.provider.FirebaseInitProvider"
+103-->[com.google.firebase:firebase-common:20.3.3] /Users/wakecap/.gradle/caches/transforms-3/c25649430469416cafa5a5774f29845e/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:26:13-77
+104            android:authorities="com.spotx.mokataa.firebaseinitprovider"
+104-->[com.google.firebase:firebase-common:20.3.3] /Users/wakecap/.gradle/caches/transforms-3/c25649430469416cafa5a5774f29845e/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:27:13-72
+105            android:directBootAware="true"
+105-->[com.google.firebase:firebase-common:20.3.3] /Users/wakecap/.gradle/caches/transforms-3/c25649430469416cafa5a5774f29845e/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:28:13-43
+106            android:exported="false"
+106-->[com.google.firebase:firebase-common:20.3.3] /Users/wakecap/.gradle/caches/transforms-3/c25649430469416cafa5a5774f29845e/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:29:13-37
+107            android:initOrder="100" />
+107-->[com.google.firebase:firebase-common:20.3.3] /Users/wakecap/.gradle/caches/transforms-3/c25649430469416cafa5a5774f29845e/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:30:13-36
+108
+109        <activity
+109-->[com.google.android.gms:play-services-base:18.1.0] /Users/wakecap/.gradle/caches/transforms-3/79c1b4e66c8ac88dace0146345ee8464/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+110            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+110-->[com.google.android.gms:play-services-base:18.1.0] /Users/wakecap/.gradle/caches/transforms-3/79c1b4e66c8ac88dace0146345ee8464/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+111            android:exported="false"
+111-->[com.google.android.gms:play-services-base:18.1.0] /Users/wakecap/.gradle/caches/transforms-3/79c1b4e66c8ac88dace0146345ee8464/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+112            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+112-->[com.google.android.gms:play-services-base:18.1.0] /Users/wakecap/.gradle/caches/transforms-3/79c1b4e66c8ac88dace0146345ee8464/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+113
+114        <meta-data
+114-->[com.google.android.gms:play-services-basement:18.1.0] /Users/wakecap/.gradle/caches/transforms-3/297f8e2f03d582152f9ae3ee562d20a0/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+115            android:name="com.google.android.gms.version"
+115-->[com.google.android.gms:play-services-basement:18.1.0] /Users/wakecap/.gradle/caches/transforms-3/297f8e2f03d582152f9ae3ee562d20a0/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+116            android:value="@integer/google_play_services_version" />
+116-->[com.google.android.gms:play-services-basement:18.1.0] /Users/wakecap/.gradle/caches/transforms-3/297f8e2f03d582152f9ae3ee562d20a0/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+117    </application>
+118
+119</manifest>

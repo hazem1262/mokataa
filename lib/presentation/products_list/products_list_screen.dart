@@ -3,6 +3,7 @@ import 'package:mokataa/data/products/products_service.dart';
 import 'package:mokataa/presentation/products_list/widgets/allowed.dart';
 import 'package:mokataa/presentation/products_list/widgets/disallowed.dart';
 import 'package:mokataa/presentation/replacements/replacements_screen.dart';
+import 'package:mokataa/utils/force_update.dart';
 import 'package:mokataa/utils/style/colors.dart';
 import 'package:mokataa/utils/style/text_style.dart';
 
@@ -40,6 +41,7 @@ class _ProductsListScreenState extends State<ProductsListScreen> with SingleTick
         });
       });
     });
+    showForceUpdateIfNeeded();
   }
 
   @override

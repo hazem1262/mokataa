@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/wakecap/AndroidStudioProjects/mokataa/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "outputFile": "/Users/wakecap/AndroidStudioProjects/personal/mokataa/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/wakecap/.gradle/caches/transforms-3/b9bc6fe7e68b936078e9cb8cf0d38b93/transformed/core-1.6.0/res/values-v16/values-v16.xml",
+                    "source": "/Users/wakecap/.gradle/caches/transforms-3/cf134b166edad80cde6fead3d59a916e/transformed/core-1.10.1/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

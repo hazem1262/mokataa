@@ -22,6 +22,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
+      navigatorKey: navigationKey,
       initialRoute: ProductsListScreen.tag,
       routes: {
         ProductsListScreen.tag : (ctx) => const ProductsListScreen(),
@@ -30,3 +31,4 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+final GlobalKey<NavigatorState> navigationKey = GlobalKey<NavigatorState>();
