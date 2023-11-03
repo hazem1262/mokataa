@@ -35,7 +35,7 @@
 26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 26-->[androidx.core:core:1.10.1] /Users/wakecap/.gradle/caches/transforms-3/cf134b166edad80cde6fead3d59a916e/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
 27        android:debuggable="true"
-28        android:icon="@mipmap/ic_launcher"
+28        android:icon="@mipmap/launcher_icon"
 29        android:label="mokataa" >
 30        <activity
 31            android:name="com.spotx.mokataa.MainActivity"

@@ -211,6 +211,7 @@ layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
 mipmap ic_launcher
+mipmap launcher_icon
 raw firebase_common_keep
 string call_notification_answer_action
 string call_notification_answer_video_action
